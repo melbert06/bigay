@@ -1,0 +1,15 @@
+<h2><b>Upload</b></h2>
+<hr>
+	<center>
+	<div style="background-color: #ececec; width: 50%; padding: 5%;">
+<%= form_for @post, html: {multipart: true} do |f| %>
+	<%= f.label :image %>
+	<%= f.file_field :image %>
+	<br>
+	<%= f.label :description %><br>
+	<%= f.text_area :description %>
+	<br><br>
+	<%= f.submit %>
+<% end %>
+</div>
+</center>
