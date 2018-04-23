@@ -40,10 +40,10 @@ group :development do
   gem 'sqlite3'
 end
 
-# group :production do
-#   gem 'pg'
-#   gem 'rails_12factor'
-# end
+group :production do
+  gem 'pg'
+  gem 'rails_12factor'
+end
 # Wind
 
 group :development, :test do
