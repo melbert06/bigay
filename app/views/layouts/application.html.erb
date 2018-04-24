@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<title>Finalsite</title>
+	<title>Cookie's </title>
 	<%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <style>
     	body{
-    		background-color: #0080ff
+    		background-color: #00ffbf;
     	}
 
 
@@ -19,10 +19,10 @@
   <body>
 	<!-- Navigation -->
 
-	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: #0040ff; font-color: white;">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-color: #00ffbf; ">
 		<div class="container">
 			<div class="navbar-header" style="color: white;">
-				<%= link_to "Majo's Forum", root_url, class: "navbar-brand" , style: "color:white" %>
+				<%= link_to "Cookie's Forum", root_url, class: "navbar-brand"   %>
 			</div>
 	        <div  class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
@@ -39,10 +39,10 @@
 					<% else %>
 
 					<li>
-						<%= link_to "Login", new_user_session_path ,style: "color:white"%>
+						<%= link_to "Login", new_user_session_path ,style: "color:black"%>
 					</li>
 					<li>
-						<%= link_to "Register", new_user_registration_path ,style: "color:white"%>
+						<%= link_to "Register", new_user_registration_path ,style: "color:black"%>
 					</li>
 					<% end %>
 				</ul>
